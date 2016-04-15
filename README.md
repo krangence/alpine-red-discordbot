@@ -24,7 +24,7 @@ For the first run of the Bot, you need the following Informations:
 
 Run a new Container
 
-    docker run -it -v <your_path>/data:/app/data alpine-red-discordbot
+    docker run -it -v <your_path>/data:/app/data anoss/alpine-red-discordbot
 
 After entering all Informations and installing all cogs, the bot is online and you can check if everything works.
 To exit the running Container press CRTL+P and CTRL+Q.
@@ -33,7 +33,7 @@ To exit the running Container press CRTL+P and CTRL+Q.
 
 If you want to run your Bot-Container in the Background, you have to stop your "first start"-container, remove them and run a new one:
 
-    docker run -d --name <your_container_name> -v <your_path>/data:/app/data alpine-red-discordbot
+    docker run -d --name <your_container_name> -v <your_path>/data:/app/data anoss/alpine-red-discordbot
 
 It should load the config from *your_path/data*  
 
