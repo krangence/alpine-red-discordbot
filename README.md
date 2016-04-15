@@ -33,7 +33,7 @@ If you want to run your Bot-Container in the Background, you have to stop your "
 
     docker run -d --name <your_container_name> -v <your_path>/data:/app/data alpine-red-discordbot
 
-It should load the config from *<your_path>/data*  
+It should load the config from *your_path/data*  
 
 ## How to use the Bot
 
