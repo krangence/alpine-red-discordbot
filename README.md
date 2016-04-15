@@ -3,9 +3,11 @@ An Alpine Docker Container with the Red Discord Bot
 
 This Container is based on the latest Alpine Docker-Image and the Red Bot made by Twentysix (https://github.com/Twentysix26/Red-DiscordBot)
 
-## Building
 
-    docker build -t alpine-red-discordbot .
+
+## Pull the Image from Docker Hub
+
+     docker pull anoss/alpine-red-discordbot
   
 ## 1st Run
 
