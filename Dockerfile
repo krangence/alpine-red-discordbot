@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER Adrian Noss (adrian.noss@gmail.com)
+MAINTAINER Krangence <matt@krangence.uk>
 
 # install needed apks
 
@@ -30,7 +30,7 @@ RUN	pip install \
 
 # git clone red bot
 
-RUN git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git /app
+RUN git clone -b develop --single-branch https://github.com/Cog-Creators/Red-DiscordBot.git /app
 
 # set volume and workdir
 
